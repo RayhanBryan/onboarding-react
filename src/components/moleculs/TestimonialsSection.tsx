@@ -2,63 +2,16 @@ import { useState } from "react";
 import CallButton from "../atoms/CallButton";
 import linkedinIcon from "../../assets/image/linkedin.svg";
 import linkedinCarouselIcon from "../../assets/image/linkedin-carousel.svg";
-import markPhoto from "../../assets/image/book-full.png";
 import carouselImg from "../../assets/image/carousel.svg";
-
-const testimonials = [
-  {
-    name: "MARK",
-    role: "Operations Manager",
-    company: "Reelcoe Agency",
-    quote:
-      '"De training heeft me nieuwe inzichten gegeven in hoe ik mijn team beter kan aansturen. Vooral de focus op actieve communicatie en empathie heeft mijn stijl sterk verbeterd. Ik zie nu al positieve veranderingen in de samenwerking."',
-    image: markPhoto,
-    linkedin: "#",
-  },
-  {
-    name: "SARAH",
-    role: "HR Director",
-    company: "XYZ Company",
-    quote:
-      '"Wat een eye-opener! Ik heb direct aanpassingen in mijn leiderschapsstijl doorgevoerd. De tools die we kregen helpen me beter in te spelen op de behoeften van mijn team."',
-    image: markPhoto,
-    linkedin: "#",
-  },
-  {
-    name: "PETER",
-    role: "Team Lead",
-    company: "ABC Corp",
-    quote:
-      '"Een transformerende ervaring. De training heeft me geholpen om bewuster leiding te geven en mijn ego opzij te zetten voor het belang van het team."',
-    image: markPhoto,
-    linkedin: "#",
-  },
-  {
-    name: "LISA",
-    role: "Project Manager",
-    company: "Tech Solutions",
-    quote:
-      '"Stefanie heeft een unieke manier om complexe concepten begrijpelijk te maken. Ik pas de geleerde technieken dagelijks toe in mijn werk."',
-    image: markPhoto,
-    linkedin: "#",
-  },
-  {
-    name: "TOM",
-    role: "CEO",
-    company: "Startup Hub",
-    quote:
-      '"De beste investering in mijn professionele ontwikkeling. Het heeft niet alleen mijn leiderschapskwaliteiten verbeterd, maar ook mijn persoonlijke groei gestimuleerd."',
-    image: markPhoto,
-    linkedin: "#",
-  },
-];
+import { testimonials } from "../../assets/data/dummy-data.json";
 
 const SLIDE_WIDTH = 75; // percentage width of active slide
 
 const TestimonialsSection = () => {
   const [current, setCurrent] = useState(0);
 
-  const next = () => setCurrent((prev) => (prev + 1) % testimonials.length);
+  const next = () =>
+    setCurrent((prev) => (prev + 1) % testimonials.items.length);
 
   return (
     <section className="mi-testimonials">
@@ -96,7 +49,7 @@ const TestimonialsSection = () => {
               className="mi-testimonials-track"
               style={{ transform: `translateX(-${current * SLIDE_WIDTH}%)` }}
             >
-              {testimonials.map((item, i) => (
+              {testimonials.items.map((item, i) => (
                 <div key={i} className="mi-testimonials-slide">
                   <div className="mi-testimonials-slide-body">
                     <div>
@@ -106,10 +59,10 @@ const TestimonialsSection = () => {
                       <p className="mi-testimonials-slide-meta">
                         <span>{item.role}</span>
                         <span className="mi-testimonials-dot">●</span>
-                        <span>{item.company}</span>
+                        <span>{item.role}</span>
                       </p>
                     </div>
-                    <p className="mi-testimonials-slide-quote">{item.quote}</p>
+                    <p className="mi-testimonials-slide-quote">{item.review}</p>
                     <a
                       className="mi-testimonials-linkedin"
                       target="_blank"
@@ -122,7 +75,7 @@ const TestimonialsSection = () => {
               ))}
             </div>
             <div className="mi-testimonials-dots">
-              {testimonials.map((_, i) => (
+              {testimonials.items.map((_, i) => (
                 <button
                   key={i}
                   className={`mi-testimonials-dot-btn${i === current ? " mi-testimonials-dot-btn--active" : ""}`}

@@ -9,12 +9,16 @@ import UniqueSection from "./components/moleculs/UniqueSection";
 import BoekSection from "./components/moleculs/BoekSection";
 import ProgramSection from "./components/moleculs/ProgramSection";
 import InitiativeSection from "./components/moleculs/InitiativeSection";
+import KennismakingModal from "./components/moleculs/KennismakingModal";
+import { useState } from "react";
 
 function App() {
+  const [showKennismaking, setShowKennismaking] = useState(false);
+
   return (
     <div className="App">
-      <Navbar />
-      <HeroSection />
+      <Navbar onContactClick={() => setShowKennismaking(true)} />
+      <HeroSection onContactClick={() => setShowKennismaking(true)} />
 
       <TrainingSection />
       <FeaturesSection />
@@ -24,6 +28,11 @@ function App() {
       <BoekSection />
       <ProgramSection />
       <InitiativeSection />
+
+      <KennismakingModal
+        isOpen={showKennismaking}
+        onClose={() => setShowKennismaking(false)}
+      />
     </div>
   );
 }

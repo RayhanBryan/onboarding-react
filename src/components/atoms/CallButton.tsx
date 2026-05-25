@@ -1,8 +1,12 @@
 import callLogo from "../../assets/image/call.svg";
 
-const CallButton = () => {
+interface CallButtonProps {
+  onClick?: () => void;
+}
+
+const CallButton = ({ onClick }: CallButtonProps) => {
   return (
-    <button className="mi-navbar-button-contact">
+    <button className="mi-navbar-button-contact" onClick={onClick}>
       <img src={callLogo} alt="Call logo" /> CONTACT
     </button>
   );

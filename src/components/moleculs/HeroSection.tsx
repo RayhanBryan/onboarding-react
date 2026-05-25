@@ -2,7 +2,11 @@ import CallButton from "../atoms/CallButton";
 import PlanButton from "../atoms/PlanButton";
 import flyingBook from "../../assets/image/book.svg";
 
-const HeroSection = () => {
+interface HeroSectionProps {
+  onContactClick?: () => void;
+}
+
+const HeroSection = ({ onContactClick }: HeroSectionProps) => {
   return (
     <section id="hero">
       <div className="mi-hero">
@@ -15,7 +19,7 @@ const HeroSection = () => {
             kijken
           </p>
           <div className="mi-hero-buttons">
-            <CallButton />
+            <CallButton onClick={onContactClick} />
             <PlanButton />
           </div>
         </div>
