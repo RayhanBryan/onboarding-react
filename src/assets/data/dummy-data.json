@@ -1,0 +1,170 @@
+{
+  "hero": {
+    "title": ["Leidinggeven", "met en zonder ego"],
+    "subtitle": "Een praktische training voor leidinggevenden die meer impact willen maken zonder ego",
+    "image": "./book-hero.webp"
+  },
+  "training": {
+    "title": ["Training", "gebaseerd op een krachtige 8-stappenmodel"],
+    "description": "Wij helpen leiders van alle niveaus om de principes uit Leidinggeven met en Zonder Ego in de praktijk te brengen. We leren je leidinggeven op de gulde middenweg van controle en loslaten. Je leert op een diep niveau wisselen tussen directief en dienstbaar leidinggeven, waardoor je dat gaat doen wat nodig is om een team naar duurzame prestaties te leiden. Ben jij klaar om de volgende stap te zetten in je leiderschap en jezelf uit te dagen?"
+  },
+  "challenges": {
+    "title": ["Herken je deze uitdagingen?", "dan past onze training bij zou"],
+    "items": [
+      "Heb je het gevoel dat je sterk moet zijn voor je team?",
+      "Pas jij je gedrag aan uit angst voor afwijzing?",
+      "Doe je wat je baas van je verwacht en luister je niet naar je eigen inzichten?",
+      "Vertrouw je in moeilijke situaties op rationeel denken?",
+      "Voel je weerstand of sabotage binnen je team?",
+      "Zijn jouw afdelingen meer bezig met hun eigen resultaten dan met het grotere geheel?"
+    ],
+    "cta": "Dan passen onze lezingen en trainingen bij jou!"
+  },
+  "testimonials": {
+    "title": ["ERVARINGEN VAN ANDEREN"],
+    "image": "./owner.jpg",
+    "items": [
+      {
+        "name": "Mark",
+        "role": "Manager",
+        "review": "De training gaf me inzicht en praktische tools om beter te leiden.",
+        "rating": 5
+      },
+      {
+        "name": "Saskia",
+        "role": "Teamlead",
+        "review": "Zeer waardevol en direct toepasbaar in de praktijk.",
+        "rating": 4
+      }
+    ]
+  },
+  "features": {
+    "title": "Ben jij, binnen jouw organisatie, op zoek naar leidinggevenden die:",
+    "items": [
+      {
+        "title": "Effectiever communiceren",
+        "description": "Leidinggevenden die elke dag enthousiast en gemotiveerd zijn."
+      },
+      {
+        "title": "Creatief en productief zijn",
+        "description": "Leidinggevenden die innovatie stimuleren en een hoge productiviteit behouden."
+      },
+      {
+        "title": "Elkaar versterken",
+        "description": "Leidinggevenden die een samenwerkende omgeving bevorderen waar teamleden elkaar ondersteunen en versterken."
+      },
+      {
+        "title": "Prestaties gaan doorbreken",
+        "description": "Leidinggevenden die grenzen verleggen en voortdurend uitstekende resultaten behalen."
+      }
+    ],
+    "cta": "Plan dan een vrijblijvende kennismaking dan maken we samen helder waar je mee geholpen bent."
+  },
+  "custom_program": {
+    "title": "unieke leiderschapsontwikkeling op maat voor jouw organisatie",
+    "description": "We kunnen jou als leidinggevende trainen, maar vaak is het effectiever, waardevoller en leuker om een groter deel van je organisatie mee te nemen. Zo spreek je dezelfde taal en begrijp je beter van elkaar wat je doet. Hoewel de 8 stappen uit Leidinggeven met en zonder Ego de basis vormen, is wat jouw organisatie echt verder gaat brengen uniek. Neem gerust contact op, dan kijken we samen wat jij wilt bereiken, zowel als persoon als vanuit je functie, en hoe de organisatie daar het meest mee geholpen is.",
+    "image": "./unieke.webp"
+  },
+  "book": {
+    "title": ["Boek de training", "leidinggeven met en zonder ego"],
+    "description": "Het boek biedt praktische inzichten en tools voor modern leiderschap.",
+    "image": "./book-with-people.webp"
+  },
+  "program": {
+    "title": "Het programma",
+    "description": "We werken met het 8-stappenmodel uit Leidinggeven met en zonder Ego dat is onderverdeeld in 3 fases. Met deze methode leer je hoe je als kapitein de juiste balans creëert tussen het zetten van de koers en vertrouwen op de bemanning, waardoor je samen en met plezier de stip aan de horizon bereikt en verder kan komen dan ooit van het team of de organisatie werd verwacht.",
+    "modules": [
+      {
+        "title": "DEEL 1",
+        "subtitle": "LEIDING GEVEN AAN JEZELF",
+        "items": [
+          "Ik weet wie ik ben (en hoe anderen over mij denken)",
+          "Ik weet wat ik wil (en wat de organisatie van mij verwacht)",
+          "Ik zeg wat ik wil (en consulteer anderen)",
+          "Ik doe wat ik zeg (en dat herkent mijn omgeving)"
+        ]
+      },
+      {
+        "title": "DEEL 2",
+        "subtitle": "LEIDING GEVEN IN HET HIER EN NU",
+        "items": ["ik ontwikkel volwassen relaties (en blijf zelf volwassen)"]
+      },
+      {
+        "title": "DEEL 3",
+        "subtitle": "ANDEREN IN STAAT STELLEN OM SUCCESVOL TE ZIJN",
+        "items": [
+          "Ik bied individuen een veilige en uitdagende context",
+          "Ik bied teams een veilige en uitdagende context",
+          "Ik bevorder een werkstructuur waarin mensen kunnen leren en presteren"
+        ]
+      }
+    ]
+  },
+  "initiative": {
+    "title": [
+      "De training wordt gegeven door",
+      "Alfred Schmits en Stefanie van Boekel"
+    ],
+    "description": "Alfred, auteur van Leidinggeven met en zonder Ego, heeft tientallen jaren ervaring in leiderschapstraining en het begeleiden van prestatieverbeteringen binnen organisaties. Naast bestuurservaring heeft hij strategische ontwikkelingsprogramma’s ontwikkeld en begeleid voor de top van bedrijven. Stefanie is expert in het aanpakken van stress en burn-out in organisaties en heeft uitgebreide ervaring met ervaringsgericht leren, waarbij deelnemers niet alleen met hun hoofd leren, maar een diepe leerervaring krijgen door ook met hun lijf te leren.\n\nSamen zijn ze geen traditioneel adviesbureau. Ze zijn helder, hebben lef, en staan altijd naast je.  Ze bieden een persoonlijke en efficiënte aanpak die je tijd bespaart: je hebt altijd rechtstreeks contact met hun. De trainingen zijn bovendien relatief goedkoop, door een slimme constructie van klein blijven, wat ze uiterst flexibel maakt.",
+    "image": "./about.webp"
+  },
+  "benefits": {
+    "title": ["Waarom kiezen voor", "deze training?"],
+    "description": "Wat ons anders maakt dan anderen",
+    "items": [
+      "Persoonlijk",
+      "Absolute expertise",
+      "Systemisch, meer dimensionaal",
+      "Maatwerk",
+      "Methode gebaseerd op de praktijk van grote ondernemingen",
+      "Duidelijk en direct",
+      "Levendig vanuit flow",
+      "Goedkoop",
+      "Gedreven door de wetenschap",
+      "Flexibel, alles mogelijk (training op waddeneiland, internationaal, outdoor, etc)"
+    ]
+  },
+  "newsletter": {
+    "title": ["Gratis leiderschapstips", "ontvangen?"],
+    "description": "Wil jij praktische tips om jouw leiderschap naar een hoger niveau te tillen? Ontvang regelmatig korte achtergrondartikelen en blijf op de hoogte van de ontwikkelingen van de training Leidinggeven met en zonder Ego.",
+    "image": "./book-small.webp"
+  },
+  "about": {
+    "title": "Wie zijn wij",
+    "description": "Achter de training Leiding geven met een zonder Ego zit een team van Stefanie van Boekel en haar collega’s. ",
+    "items": [
+      "Wij zijn persoonlijk. Geven zelf de trainingen. Als een specifieke expertise nodig is signaleren we dat en huren absolute experts in. Wij maken zelf afspraken met jou.",
+      "We kijken tegen niemand op, staan naast klanten, zijn eerlijk, kritisch, open en oprecht. Dat is bijzonder, want op die plekken doen niet zoveel mensen dat.",
+      "Daarbij zijn we professioneel en absolute experts op het gebied van leiders en bedrijven in de flow krijgen. We kennen de doelgroep waar we mee werken, van raden van bestuur van grote bedrijven, tot teamleiders. ",
+      "Horen waar jij mee geholpen bent, sluiten daar bij aan. We zijn echt en oprecht.  Zorgen voor een locatie die past bij jouw wensen en budget, we snappen dat ieder bedrijf, ieder team en elke leider anders is en in een andere situatie zit. ",
+      "We roepen niet dat we goed zijn en top resultaten bereiken,  in tegenstelling tot andere leiderschapstrainingen. Mensen ervaren dat. "
+    ]
+  },
+  "book_section": {
+    "title": ["Over het boek", "Leidinggeven met en zonder ego"],
+    "authors": [
+      {
+        "name": "Paul van Schaik",
+        "linkedin": "https://linkedin.com/in/paulvanschaik"
+      },
+      {
+        "name": "Alfred Schmits",
+        "linkedin": "https://linkedin.com/in/alfredschmits"
+      },
+      {
+        "name": "Dennis Stout",
+        "linkedin": "https://linkedin.com/in/dennisstout"
+      }
+    ],
+    "description": "Leidinggeven met en zonder Ego, geschreven door Paul van Schaik, Alfred Schmits en Dennis Stout, ligt vanaf november 2024 in de schappen. \n\nHet boek beschrijft wat we als leiders vaak doen, waarom we dat (on)bewust doen, en wat de effecten daarvan zijn: teams komen regelmatig niet in de flow en er ontstaat gedoe. Met een concreet 8-stappenplan biedt het boek je alternatief gedrag dat leidt tot diepere samenwerking, meer werkplezier en bovengemiddelde prestaties. Deze strategieën zijn gebaseerd op jarenlange ervaring in grote ondernemingen en onderbouwd door wetenschappelijk onderzoek.\n\nTijdens het programma van Alfred Schmits en Stefanie van Boekel leer je hoe je deze succesvolle strategieën direct kunt toepassen in jouw eigen team of organisatie."
+  },
+  "cta_training": {
+    "title": "Ben jij klaar om je leiderschap naar een hoger niveau te tillen?",
+    "description": "Het boek Leidinggeven met en zonder Ego, geschreven door Paul van Schaik, Alfred Schmits, en Dennis Stout  ligt sinds oktober in de schappen. Dit boek biedt niet alleen de tools om je ego in balans te houden, maar ook om te leren wanneer het nodig is om je ego los te laten, zodat je de ander kunt ondersteunen in zijn of haar groei. \n\nMet de trainingen van Stefanie van Boekel zorgen we dat je die stappen echt doorloopt en dat bovenstaande je lukt.",
+    "image": "./ben-jij.webp"
+  },
+  "contact_form": {
+    "title": "Neem geheel vrijblijvend contact op en ik kom zo snel mogelijk bij u terug.",
+    "description": "We behandelen uw e-mailadres met zorg: het wordt nooit gedeeld met derden of gebruikt voor andere doeleinden."
+  }
+}
