@@ -2,12 +2,14 @@ import { useState } from "react";
 import CallButton from "../atoms/CallButton";
 import linkedinIcon from "../../assets/image/linkedin.svg";
 import linkedinCarouselIcon from "../../assets/image/linkedin-carousel.svg";
-import carouselImg from "../../assets/image/carousel.svg";
 import { testimonials } from "../../assets/data/dummy-data.json";
+import starReviewIcon from "../../assets/image/star_review.svg";
 
 const SLIDE_WIDTH = 75; // percentage width of active slide
-
-const TestimonialsSection = () => {
+interface TestimonialsSectionProps {
+  onCallbackClick?: () => void;
+}
+const TestimonialsSection = ({ onCallbackClick }: TestimonialsSectionProps) => {
   const [current, setCurrent] = useState(0);
 
   const next = () =>
@@ -17,21 +19,21 @@ const TestimonialsSection = () => {
     <section className="mi-testimonials">
       <div className="mi-container mi-testimonials-inner">
         <div className="mi-testimonials-header">
-          <h2 className="mi-testimonials-title">ERVARINGEN VAN ANDEREN</h2>
+          <h2 className="mi-testimonials-title">{testimonials.title}</h2>
           <div className="mi-testimonials-content">
             <p className="mi-testimonials-subtitle">
               Benieuwd naar de ervaringen van andere leidinggevenden na het
               volgen van de training Leiding geven met en zonder Ego van
               Stefanie van Boekel?
             </p>
-            <CallButton />
+            <CallButton onClick={onCallbackClick} />
           </div>
         </div>
         <div className="mi-testimonials-carousel">
           <div className="mi-testimonials-slide-photo-panel">
             <img
               className="mi-testimonials-slide-photo-img"
-              src={carouselImg}
+              src={testimonials.image}
             />
             <div className="mi-testimonials-slide-photo-tags">
               <span className="mi-testimonials-tag">
@@ -58,8 +60,12 @@ const TestimonialsSection = () => {
                       </h3>
                       <p className="mi-testimonials-slide-meta">
                         <span>{item.role}</span>
-                        <span className="mi-testimonials-dot">●</span>
-                        <span>{item.role}</span>
+                        <span className="mi-testimonials-dot"> ● </span>
+                        {Array.from({ length: item.rating }, (_, i) => (
+                          <span key={i} className="mi-testimonials-star">
+                            <img src={starReviewIcon} alt="Star" />
+                          </span>
+                        ))}
                       </p>
                     </div>
                     <p className="mi-testimonials-slide-quote">{item.review}</p>

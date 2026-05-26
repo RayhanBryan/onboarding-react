@@ -1,25 +1,32 @@
+import starIcon from "../../assets/image/star.svg";
 import CallButton from "../atoms/CallButton";
+import { features } from "../../assets/data/dummy-data.json";
 
 const FeaturesSection = () => {
   return (
-    <section className="mi-features">
-      <div className="mi-container mi-features-inner">
-        <h2 className="mi-features-title">
-          HERKEN JE DEZE UITDAGINGEN? <br />
-          DAN PAST ONZE TRAINING BIJ JOU
-        </h2>
-        <p className="mi-features-subtitle">
-          Heb je het gevoel dat je sterk moet zijn voor je team? <br /> Pas jij
-          je gedrag aan uit angst voor afwijzing? <br /> Doe je wat je baas van
-          je verwacht en luister je niet naar je eigen inzichten? <br />{" "}
-          Vertrouw je in moeilijke situaties op rationeel denken? <br /> Voel je
-          weerstand of sabotage binnen je team? <br /> Zijn jouw afdelingen meer
-          bezig met hun eigen resultaten dan met het grotere geheel?
-        </p>
-        <p className="mi-features-subtitle">
-          Dan passen onze lezingen en trainingen bij jou!
-        </p>
-        <CallButton />
+    <section id="features" className="mi-features">
+      <div className="mi-features-inner mi-container">
+        <h2 className="mi-features-title">{features.title}</h2>
+        <div className="mi-features-content">
+          {features.items.map((leader, i) => (
+            <div key={i} className="mi-features-leader">
+              <div className="mi-features-leader-icon">
+                <img src={starIcon} alt={leader.title} />
+              </div>
+              <h3 className="mi-features-leader-title">{leader.title}</h3>
+              <p className="mi-features-leader-description">
+                {leader.description}
+              </p>
+            </div>
+          ))}
+          <div className="mi-features-desc">
+            <p>
+              Plan dan een vrijblijvende kennismaking dan maken we samen helder
+              waar je mee geholpen bent.
+            </p>
+          </div>
+          <CallButton />
+        </div>
       </div>
     </section>
   );
