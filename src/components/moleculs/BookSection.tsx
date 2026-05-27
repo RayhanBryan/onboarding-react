@@ -17,8 +17,13 @@ const BookSection = () => {
             <p>{book.description}</p>
           </div>
           <div className="mi-book-btn">
-            <CallButton />
-            <PlanButton />
+            <CallButton
+              label="INSCHRIJVEN "
+              hoverWhite={false}
+              borderWhite={false}
+              hideIcon={true}
+            />
+            <PlanButton label="KENNISMAKEN" hideIcon={true} />
           </div>
         </div>
       </div>

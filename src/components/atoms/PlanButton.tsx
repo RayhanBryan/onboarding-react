@@ -1,9 +1,21 @@
 import planLogo from "../../assets/image/menu-board.svg";
 
-const PlanButton = () => {
+interface PlanButtonProps {
+  onClick?: () => void;
+  label?: string;
+  icon?: string;
+  hideIcon?: boolean;
+}
+
+const PlanButton = ({
+  onClick,
+  label = "KENNISMAKING PLANNEN",
+  icon = planLogo,
+  hideIcon = false,
+}: PlanButtonProps) => {
   return (
-    <button className="mi-navbar-button-plan">
-      <img src={planLogo} alt="Plan logo" /> KENNISMAKING PLANNEN
+    <button className="mi-navbar-button-plan" onClick={onClick}>
+      {!hideIcon && <img src={icon} alt="Plan logo" />} {label}
     </button>
   );
 };

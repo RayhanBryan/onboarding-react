@@ -2,7 +2,11 @@ import { initiative } from "../../assets/data/dummy-data.json";
 import initativeImage from "../../assets/image/initiative.png";
 import CallButton from "../atoms/CallButton";
 
-const InitiativeSection = () => {
+interface InitiativeSectionProps {
+  onContactClick?: () => void;
+}
+
+const InitiativeSection = ({ onContactClick }: InitiativeSectionProps) => {
   return (
     <section id="initiative" className="mi-initiative">
       <div className="mi-initiative-inner mi-container">
@@ -16,7 +20,12 @@ const InitiativeSection = () => {
           </div>
           <div className="mi-initiative-desc">
             <p>{initiative.description}</p>
-            <CallButton />
+            <CallButton
+              onClick={onContactClick}
+              label="PLAN KENNISMAKING"
+              hoverWhite={false}
+              borderWhite={false}
+            />
           </div>
         </div>
       </div>

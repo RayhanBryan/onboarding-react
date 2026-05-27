@@ -17,7 +17,12 @@ const ChallengesSection = () => {
         </div>
 
         <p className="mi-challenges-subtitle">{challenges.cta}</p>
-        <CallButton />
+        <CallButton
+          label="INSCHRIJVEN"
+          hoverWhite={false}
+          borderWhite={false}
+          hideIcon={true}
+        />
       </div>
     </section>
   );

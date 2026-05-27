@@ -4,9 +4,10 @@ import { hero } from "../../assets/data/dummy-data.json";
 
 interface HeroSectionProps {
   onContactClick?: () => void;
+  onPlanClick?: () => void;
 }
 
-const HeroSection = ({ onContactClick }: HeroSectionProps) => {
+const HeroSection = ({ onContactClick, onPlanClick }: HeroSectionProps) => {
   return (
     <section id="hero" className="mi-hero">
       <div className="mi-container mi-hero-inner">
@@ -18,9 +19,13 @@ const HeroSection = ({ onContactClick }: HeroSectionProps) => {
         </div>
         <div className="mi-hero-buttons">
           <CallButton onClick={onContactClick} />
-          <PlanButton />
+          <PlanButton onClick={onPlanClick} />
         </div>
         <img src={hero.image} className="mi-hero-flying-book" alt="" />
+        <h4 className="mi-hero-bg-text" style={{ top: "555px" }}>
+          Leidinggeven <br />
+          met en zonder ego
+        </h4>
       </div>
     </section>
   );

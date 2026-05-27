@@ -10,7 +10,10 @@ const TrainingSection = () => {
           <span>{training.title[1]}</span>
         </h2>
         <p className="mi-training-subtitle">{training.description}</p>
-        <CallButton />
+        <CallButton hoverWhite={false} borderWhite={false} />
+        <h4 className="mi-hero-bg-text" style={{ top: "60px" }}>
+          Leidinggeven <br /> met en zonder ego
+        </h4>
       </div>
     </section>
   );

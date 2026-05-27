@@ -24,24 +24,30 @@ function App() {
   const [showKennismaking, setShowKennismaking] = useState(false);
   const [showCallbackModal, setShowCallbackModal] = useState(false);
 
+  const openKennismaking = () => setShowKennismaking(true);
+  const openCallback = () => setShowCallbackModal(true);
+
   return (
     <div className="App">
-      <Navbar onContactClick={() => setShowKennismaking(true)} />
-      <HeroSection onContactClick={() => setShowKennismaking(true)} />
+      <Navbar onPlanClick={openKennismaking} />
+      <HeroSection onPlanClick={openKennismaking} />
 
       <TrainingSection />
       <ChallengesSection />
-      <TestimonialsSection onCallbackClick={() => setShowCallbackModal(true)} />
-      <FeaturesSection />
+      <TestimonialsSection onCallbackClick={openCallback} />
+      <FeaturesSection onContactClick={openKennismaking} />
       <CustomProgramSection />
       <BookSection />
       <ProgramSection />
-      <InitiativeSection />
+      <InitiativeSection onContactClick={openKennismaking} />
       <BenefitsSection />
-      <NewsletterSection />
+      <NewsletterSection onPlanClick={openKennismaking} />
       <AboutSection />
       <AuthorsSection />
-      <CtaTrainingSection />
+      <CtaTrainingSection
+        onContactClick={openCallback}
+        onPlanClick={openKennismaking}
+      />
       <ContactSection />
       <FooterSection />
       <KennismakingModal

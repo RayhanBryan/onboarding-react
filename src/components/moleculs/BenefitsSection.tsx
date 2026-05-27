@@ -1,8 +1,7 @@
 import { benefits } from "../../assets/data/dummy-data.json";
 import starIcon from "../../assets/image/star.svg";
-import bookImage from "../../assets/image/book-section.svg";
 
-const UniqueSection = () => {
+const BenefitsSection = () => {
   return (
     <section id="benefits" className="mi-benefits">
       <div className="mi-benefits-inner mi-container">
@@ -24,9 +23,12 @@ const UniqueSection = () => {
             </div>
           ))}
         </div>
+        <h4 className="mi-hero-bg-text" style={{ top: "60px" }}>
+          Leidinggeven <br /> met en zonder ego
+        </h4>
       </div>
     </section>
   );
 };
 
-export default UniqueSection;
+export default BenefitsSection;

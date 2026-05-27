@@ -1,12 +1,18 @@
 import starIcon from "../../assets/image/star.svg";
 import CallButton from "../atoms/CallButton";
 import { features } from "../../assets/data/dummy-data.json";
+import planLogo from "../../assets/image/menu-board-white.svg";
+interface FeaturesSectionProps {
+  onContactClick?: () => void;
+}
 
-const FeaturesSection = () => {
+const FeaturesSection = ({ onContactClick }: FeaturesSectionProps) => {
   return (
     <section id="features" className="mi-features">
       <div className="mi-features-inner mi-container">
-        <h2 className="mi-features-title">{features.title}</h2>
+        <div className="mi-features-left">
+          <h2 className="mi-features-title">{features.title}</h2>
+        </div>
         <div className="mi-features-content">
           {features.items.map((leader, i) => (
             <div key={i} className="mi-features-leader">
@@ -25,8 +31,17 @@ const FeaturesSection = () => {
               waar je mee geholpen bent.
             </p>
           </div>
-          <CallButton />
+          <CallButton
+            onClick={onContactClick}
+            label="KENNISMAKING PLANNEN"
+            borderWhite={false}
+            hoverWhite={false}
+            icon={planLogo}
+          />
         </div>
+        <h4 className="mi-hero-bg-text" style={{ top: "60px" }}>
+          Leidinggeven <br /> met en zonder ego
+        </h4>
       </div>
     </section>
   );

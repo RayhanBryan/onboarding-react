@@ -26,7 +26,13 @@ const TestimonialsSection = ({ onCallbackClick }: TestimonialsSectionProps) => {
               volgen van de training Leiding geven met en zonder Ego van
               Stefanie van Boekel?
             </p>
-            <CallButton onClick={onCallbackClick} />
+            <CallButton
+              onClick={onCallbackClick}
+              label="TERUGBELVERZOEK?"
+              hoverWhite={false}
+              borderWhite={false}
+              hideIcon={true}
+            />
           </div>
         </div>
         <div className="mi-testimonials-carousel">
