@@ -39,9 +39,6 @@ const FeaturesSection = ({ onContactClick }: FeaturesSectionProps) => {
             icon={planLogo}
           />
         </div>
-        <h4 className="mi-hero-bg-text" style={{ top: "60px" }}>
-          Leidinggeven <br /> met en zonder ego
-        </h4>
       </div>
     </section>
   );

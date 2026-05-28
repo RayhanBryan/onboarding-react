@@ -148,7 +148,7 @@ const ContactSection = () => {
             )}
           </div>
         </div>
-        <h4 className="mi-hero-bg-text" style={{ top: "60px" }}>
+        <h4 className="mi-hero-bg-text" style={{ top: "-152px" }}>
           Leidinggeven <br /> met en zonder ego
         </h4>
       </div>

@@ -5,6 +5,10 @@ const ChallengesSection = () => {
   return (
     <section className="mi-challenges">
       <div className="mi-container mi-challenges-inner">
+        <h4 className="mi-hero-bg-text" style={{ top: "377px" }}>
+          Leidinggeven <br />
+          met en zonder ego
+        </h4>
         <h2 className="mi-challenges-title">
           {challenges.title[0]} <br /> {challenges.title[1]}
         </h2>

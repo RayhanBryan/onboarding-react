@@ -22,10 +22,6 @@ const HeroSection = ({ onContactClick, onPlanClick }: HeroSectionProps) => {
           <PlanButton onClick={onPlanClick} />
         </div>
         <img src={hero.image} className="mi-hero-flying-book" alt="" />
-        <h4 className="mi-hero-bg-text" style={{ top: "555px" }}>
-          Leidinggeven <br />
-          met en zonder ego
-        </h4>
       </div>
     </section>
   );

@@ -22,8 +22,11 @@ const NewsletterSection = ({ onPlanClick }: NewsletterSectionProps) => {
         </div>
         <img src={bookImage} alt="Book" className="mi-newsletter-img" />
       </div>
-      <h4 className="mi-hero-bg-text" style={{ top: "60px" }}>
-        EGO EGO EGO EGO EGO EGO
+      <h4 className="mi-hero-bg-text mi-ego-text" style={{ top: "-10px" }}>
+        EGO EGO EGO EGO EGO EGO EGO EGO
+      </h4>
+      <h4 className="mi-hero-bg-text mi-ego-text" style={{ bottom: "-10px" }}>
+        EGO EGO EGO EGO EGO EGO EGO EGO
       </h4>
     </section>
   );
